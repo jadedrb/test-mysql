@@ -7,12 +7,12 @@ import axios from 'axios'
 function App() {
 
   useEffect(() => {
-    console.log('v1.01')
+    console.log('v1.02')
     axios
       .get('http://localhost:8080/api/users')
       .then(res => console.log(res))
       .catch(err => console.log(err))
-      
+
   }, [])
   // testing
   //asasdfsjadhfl adsjfl kadsjkf
