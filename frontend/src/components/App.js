@@ -7,7 +7,7 @@ import axios from 'axios'
 function App() {
 
   useEffect(() => {
-    console.log('v1.05 (2:17pm')
+    console.log('v1.06 (2:29)pm')
     axios
       .get('/api/users')
       .then(res => console.log(res))

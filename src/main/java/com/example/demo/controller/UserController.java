@@ -18,7 +18,7 @@ import com.example.demo.exception.ResourceNotFoundException;
 import com.example.demo.repository.UserRepository;
 
 @RestController
-@CrossOrigin
+@CrossOrigin(origins = "http://localhost:3000") 
 @RequestMapping("/api/users")
 public class UserController {
 	
