@@ -1,0 +1,20 @@
+.todo{
+  /* border: 2px solid  red; */
+  flex: 1;
+}
+#item-wrapper {
+  border-left: 3px solid forestgreen;
+}
+#item {
+  margin-left: .4em;
+}
+#inputted-item {
+  height: 3em;
+  width: 50%;
+  border: none;
+
+  font-size: 12pt;
+}
+textarea:focus, input:focus{
+  outline: none;
+}

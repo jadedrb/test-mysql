@@ -1,0 +1,22 @@
+.main {
+  position: fixed;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  
+  width: 45%;
+  min-height: 50%;
+  max-height: 70%;
+  background-color: white;
+  /* border: 2px solid grey; */
+
+  display:flex;
+  flex-direction: column;
+  flex-basis:100%;
+  align-items: stretch;
+
+}
+
+.title {
+  border-bottom: 1px solid grey;
+}
